@@ -6,9 +6,17 @@
 //using std::cin;
 using namespace std;
 
+/* Priority
+
+  Local Variable
+  Global Variable
+  Namespace Varaible
+
+*/
 
 // Making own namespace
-namespace A
+namespace
+
 {
   int x = 50;// Namespace Variable
 

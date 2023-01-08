@@ -1,6 +1,5 @@
 #include<iostream>
 #include<conio.h>
-//#include<stdlib.h>
 #include<unistd.h>// implementing sleep function
 
 using namespace std;

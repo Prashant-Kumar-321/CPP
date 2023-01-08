@@ -3,11 +3,11 @@
 
 using namespace std;
 
-
 namespace
 {
  int  x = 97;
 }
+//This is done When we want to keep our namespace private;
 
 int main()
 {
