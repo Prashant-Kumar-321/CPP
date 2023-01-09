@@ -1,5 +1,5 @@
  #include<iostream>
- #include<conio.h>
+ #include<conio>
 
  using namespace std;
 
