@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 
 using namespace std;
 
@@ -16,11 +17,12 @@ int main()
   cout<<"Sumation of (" << x << " " << y << ") = "<<z<< endl;
 
   /* */
-  char ope;
+  char ope = '+' ;
   cout<<"\t\t\t\tAddition Calculator \n\n\n";
   cout<<"Enter\n" ;
   cout<<"Num1 + Num2 = ";
-  cin>>x >> ope >>y;
+//  cin>>x >> ope >>y;
+  cin>>x >>ope>>y;
 
   switch(ope)
   {
@@ -32,6 +34,6 @@ int main()
   }
 
 
-
+ getch();
   return 0;
 }
