@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+  system("color 9f");
   int num = 90;
   cout<< "Enter a number : "<<flush<<endl<< "\n";
   // endl/ inserted new line and flushes the out buffer;
