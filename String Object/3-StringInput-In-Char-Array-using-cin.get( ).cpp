@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
   char Firstname[15], secondName[10];
-  istream&is = cin.get();
+  //istream&is = cin.get();
 
   cout<< "Enter your First Name: ";
   cin.get(Firstname, 15).get();

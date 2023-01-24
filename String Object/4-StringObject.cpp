@@ -23,7 +23,7 @@ int main()
   getline(cin,a);
 
   // catanation to two string object
-  c = a/b;
+  c = a + b;
 
   cout<< "catanated String = "<< c<< endl;
 

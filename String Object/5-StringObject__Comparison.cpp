@@ -12,7 +12,7 @@ int main()
 
   string a,b;
   a = "ABC";
-  b = "PQR";
+  b = "PQR";1
 
   int ans = a >= b ;// false
   ans = a <= b; // true
@@ -22,12 +22,8 @@ int main()
 
   // Accessign string object using pointer
   string *p = &a;
-  cout<< " "<< *p<< endl ;
+  cout<< " "<< *p<< endl ; // both are same
   cout<< " "<< p[0] ;
-
-
-
-
 
   return 0;
 }

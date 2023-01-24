@@ -22,7 +22,7 @@ int main()
   {
     cout<< name1[i]<< " ";
   }
-  cin.getline(name1,25).getline(name1,25);
+  //cin.getline(name1,25).getline(name1,25); it is possible;
 
 
 
