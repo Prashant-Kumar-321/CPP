@@ -49,6 +49,11 @@ int main()
   sum = b.Add(); 
   cout<< "Addition is "<< sum<< endl;
 
+  static Addition c(20,30); // static object 
+  sum = c.Add(); 
+
+  cout<< "Addition is = "<< sum << endl; 
+
   getch();
   return 0;
 }

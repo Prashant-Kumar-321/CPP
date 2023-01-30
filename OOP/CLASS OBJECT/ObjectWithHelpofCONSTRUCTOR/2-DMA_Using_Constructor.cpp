@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdlib>
 #include<conio.h>
 //#include<cstdlib>
 
@@ -44,7 +45,8 @@ public:
   }
 
 };
-int min(int a, int b)
+
+int min(int a, int b) // C Normal function 
 {
   return (a>b) ? a: b;
 }
@@ -56,10 +58,12 @@ void printArr(int n, int (&x)[5])
     cout<< x[i]<< " ";
 }
 
+// Driver Code 
 int main()
 {
   int arr[5] = {2,1,4,6,-7};
   cout<< "Elements of arr \n";
+  
   printArr(5,arr);
 
   HCF*h = new HCF(7,3);

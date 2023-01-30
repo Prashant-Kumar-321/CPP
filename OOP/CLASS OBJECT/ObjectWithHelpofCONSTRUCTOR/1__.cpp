@@ -44,7 +44,7 @@ int main()
   int x,y;
   cout<< "Enter two number: ";
   cin>> x >> y;
-
+  int age = 10; 
   // Making object of Addition class;
 
 Addition A = Addition();// Explicitly calling [default constructor] to make object;

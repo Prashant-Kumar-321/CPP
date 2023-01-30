@@ -15,8 +15,7 @@ using namespace std;
 */
 
 // Making own namespace
-namespace
-
+namespace A
 {
   int x = 50;// Namespace Variable
 
@@ -27,8 +26,15 @@ namespace
       cout<< x <<endl;
       cout<< x << endl;
   }
-
+  void display(); // declaration of display() method inside namespace A
 }
+// defining display() function
+void  A::display() // A:: scope resolution qualifirer
+{
+  cout<< "I write Mathematical Logic in code "<< endl;
+}
+
+
 using namespace A;
 
 // Global Variable
@@ -42,11 +48,11 @@ int main(void)
     int x = 65;
 
   cout<< "x = " << x    << "\n"; // local Variable
-  cout<<"x = "  << ::x  << endl;// Global Variable; Implicitly telling to print globlal variable;
-  cout<< "x = " << A::x << endl; // Namespace Variable;// Implicitly telling to print namespace variable;
+  cout<<"x = "  << ::x  << endl;// Global Variable; Explicitly telling to print globlal variable;
+  cout<< "x = " << A::x << endl; // Namespace Variable;// Explicityly telling to print namespace variable;
   A::print();
-  print();// Already used namespace A;
-
+  A::print();// Already used namespace A;
+  display();
   getch();
   return 0;
 }

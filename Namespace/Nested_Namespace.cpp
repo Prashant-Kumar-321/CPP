@@ -16,7 +16,7 @@
 
  using namespace A;
  using namespace B;
- using namespace A::B;
+ //using namespace A::B;
 
 // Driver Code
 int main()
