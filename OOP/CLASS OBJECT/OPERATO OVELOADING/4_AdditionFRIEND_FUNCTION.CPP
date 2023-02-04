@@ -14,6 +14,7 @@ public:
     y = b;
   }
   Addition () {}
+  
   // Member function definition
   void display()
   {

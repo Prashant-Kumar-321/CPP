@@ -9,12 +9,10 @@ void show()
   // it will be allocated memory once
   int y = 20; // life span till show is alive
   /*******************************************************************
-   Both variable declared only once 
-   static variable only get initialized once on first function call 
-   Normal Local Variable get Initailized Every time function is called 
+   local static variable only geteeclared and initialized once on first function call 
+   Normal Local Variable get declared and Initailized Every time function is called 
    ******************************************************************/
-
-
+ 
   cout<<"Address of y = "<< &y<< endl; 
 
   cout<< "x = "<< x<< " , y = "<< y<< endl;
