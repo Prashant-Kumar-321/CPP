@@ -4,11 +4,13 @@ using namespace std;
 class A
 {
   int x,y,z; 
-  const int P = 0; // Temporarily intializing
+  const int P; // non-static data member 
 
   public: 
-    A(){ }
-    A(int x, int y, int z) : x(x),y(y),z(z),P(x)      // initializing object using initializer list 
+    A():P(0) 
+    {
+    } 
+    A(int x, int y, int z) : x(x),y(y),z(z),/*const data member*/ P(x)// initializing object using initializer list 
     {
       cout<< "PC called "<< endl;
     }

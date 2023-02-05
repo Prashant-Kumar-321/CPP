@@ -8,7 +8,7 @@ class A
   public: 
       A ()  // DC 
       {
-        cout<< "DC called "<< endl; 
+        cout<< "DCA(default constructor) called "<< endl; 
       } 
 
       // A(int a, int b, int c) // PC // taking three parameter 
