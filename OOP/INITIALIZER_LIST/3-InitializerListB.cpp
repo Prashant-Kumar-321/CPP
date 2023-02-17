@@ -2,7 +2,8 @@
 using namespace std; 
 
 // Global variable 
-int global = 20; 
+int global = 20; // it will become shared memory for all object ABC 
+                 // whom z will be pointing 
 
 class ABC
 {

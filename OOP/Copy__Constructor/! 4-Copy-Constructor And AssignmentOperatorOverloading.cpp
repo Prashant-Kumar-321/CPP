@@ -8,6 +8,7 @@
 #include <cstring>
 
 using namespace std;
+
 class Mystring
 {
 private:

@@ -19,7 +19,7 @@ class A
       //   z = c; 
       // }
 
-      // A(int x, int y, int z) // if constructor local variable name is same as instance variable of object  
+      // A(int x, int y, int z) // if constructor's local variable name is same as instance variable of object  
       // {                      // Compiler cann't understand which one is local variable and which one is instance variable 
       //   x = x;               // so it will not intialize the object                
       //   y = y; 
