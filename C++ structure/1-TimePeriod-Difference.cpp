@@ -12,7 +12,8 @@ struct Time
   int min;
   int sec;
 };
-struct Time computeTime_Difference (struct Time t1,struct Time t2)
+
+struct Time computeTime_Difference (struct Time t1, struct Time t2)
 {
   // comparing t2.sec and t2.min with t1.sec and t1.sec to make sure substraction can be done
   if(t2.sec<t1.sec)
