@@ -29,8 +29,9 @@ class Rupees
 int main()
 {
   Rupees R1 = 45; // predefined ---> user-defined ;
- // Here PC of 1 arg will be called ; i.e Rupees(45);  
+ // Here PC of 1 _arg__ will be called ; i.e Rupees(45);  
 
+  R1 = 34; 
   R1.display(); 
 
   return 0 ; 

@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 // Driver of code 
 int main(void) // Not taking any argument 
 {
@@ -24,7 +23,7 @@ int main(void) // Not taking any argument
   cout<< "Fx = "<< Fx<< endl;  
   cout<< "ch = "<< ch<<" , " << int(ch)<<  endl;
 
-  678; 
+  678.90; 
   
   getch(); 
   return 0; 

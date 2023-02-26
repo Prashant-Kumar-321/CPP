@@ -1,6 +1,6 @@
 /*
    userdefinied ------>  Predefined 
-   Userdefined -> Class -> overload ===> operator int/char/float/double
+   Userdefined -> Class -> overload ===> operator int/char/float/double (any one)
 */
 #include<iostream>
 using namespace std; 
@@ -46,7 +46,7 @@ class Rupee
 // Driver code 
 int main()
 {
-  Rupee R1 = 'A'; 
+  Rupee R1 =  125.32; 
 
   int x    = R1; // Intializing predefined datatype with user defined data type
   char ch  = R1; 
