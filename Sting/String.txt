@@ -1,0 +1,9 @@
+cin :=> cin with an extraction operator(>>) terminates When whitespace is found. 
+
+cin.get() : =>
+It is used for accessing character array
+ reads a string with  the whitespaces 
+
+Syntax: 
+   cin.get(char*,  size);
+   cin.get(char&); 
