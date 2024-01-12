@@ -1,0 +1,4 @@
+﻿  unique_ptr.cpp
+F:\UNIQUER_PTR\UNIQUER_PTR\unique_ptr.cpp(11,5): warning C4297: 'fun': function assumed not to throw an exception but does
+F:\UNIQUER_PTR\UNIQUER_PTR\unique_ptr.cpp(11,5): message : __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  UNIQUER_PTR.vcxproj -> F:\UNIQUER_PTR\x64\Debug\UNIQUER_PTR.exe
