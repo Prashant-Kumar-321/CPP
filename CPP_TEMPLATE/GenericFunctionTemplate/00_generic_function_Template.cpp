@@ -12,10 +12,10 @@ template<class T> void printn(T, T);
 
 int main(int agrc, char*agrv[])
 {
-  // display(23); 
-  // display(3.7654f); 
-  // display("Prashant Kumar Rocks"); 
-  // display('P'); 
+  display(23); 
+  display(3.7654f); 
+  display("Prashant Kumar"); 
+  display('P'); 
 
   printn(23, 67); 
   printn(3.87f, 1.967f); 
